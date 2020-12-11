@@ -1,0 +1,337 @@
+
+/*
+
+.topbar{
+
+    background-color:#282828 ;
+    width: auto;
+    height: 70px ;
+    display: flex;
+    flex-direction: row ;
+    justify-content: flex-end ;
+    
+    
+    
+}
+#ACCESS,#ACADEMY,#GAMES,#SUPPORT,#BLOG,#FORUMS,#FAQ {color: white; font-size: 15px;}
+ 
+#PURCHASE {
+    background-color:#97743a ;
+    color: white;
+    font-size: 15px;
+    padding: 6px;
+    
+}
+#ACCES:HOVER {text-decoration: underline;}
+#ACADEMY:HOVER {text-decoration: underline;}
+#GAMES:HOVER {text-decoration: underline;}
+#SUPPORT:HOVER {text-decoration: underline;}
+#BLOG:HOVER {text-decoration: underline;}
+#FORUMS:HOVER {text-decoration: underline;}
+#FAQ:HOVER {text-decoration: underline;}
+#PURCHASE:HOVER {text-decoration: underline;}
+
+ #twl {
+     width: 200px; height: auto;
+     transform: translate(-400px);
+ }
+
+#ilog {
+    width: 50px; height: auto;
+    transform: translateY(12px);
+    background-color: transparent ;
+
+}
+.aboutetc {
+    background-color:#282828 ;
+    width: auto;
+    height: 70px ;
+    display: flex;
+    padding: 20px;
+    flex-direction: row ;
+    justify-content: flex-start;
+}
+
+
+/*
+.topbar {
+    background-color:#282828 ;
+    width: 1158px;
+    height:60px;
+}
+
+.topbar a {
+    transform: translate(500px);
+    float: left;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 30px 5px;
+    font-size: 17px;
+}
+#ACCES:hover {  text-decoration: underline;}
+#ACADEMY:hover {  text-decoration: underline;}
+#GAMES:hover {  text-decoration: underline;}
+#SUPPORT:hover {  text-decoration: underline;}
+#BLOG:hover {  text-decoration: underline;}
+#FORUMS:hover {  text-decoration: underline;}
+#FAQ:hover {  text-decoration: underline;}
+#PURCHASE {background-color: rgba(189, 149, 19, 0.797); height: 0px; }
+
+
+
+
+#twl {
+    width:150px; 
+    height: auto;
+    padding-top: 20px;
+    transform: translate(-400px);
+    
+}
+*/
+
+.bimage {
+    width: 10000px;
+    height: 10000px;
+}
+.tophead {
+    background-color: #282828;
+    height: 54px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.topbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+.topbarhead1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 10PX;
+    color: white;
+    justify-content: flex-end;
+    font-size: 13px;
+}
+#PURCHASE {
+    background-color:#97743a ;
+    color: white;
+    
+    padding: 6px;
+    margin: 10px;
+}
+/*can't find a way to do all this together */
+#ACCES {margin: 3PX; } 
+#ACADEMY {margin: 3PX;}
+#GAMES {margin: 3PX;}
+#SUPPORT {margin: 3PX;}
+#BLOG {margin: 3PX;}
+#FORUM {margin: 3PX;}
+#FAQ{margin: 3PX;}
+
+
+/*can't find a way to do all this together */
+#ACCESS:HOVER {text-decoration: underline;}
+#ACADEMY:hover {text-decoration: underline; }
+#GAMES:HOVER {text-decoration: underline; }
+#SUPPORT:HOVER {text-decoration: underline; }
+#BLOG:HOVER {text-decoration: underline; }
+#FORUMS:HOVER {text-decoration: underline; }
+#FAQ:HOVER {text-decoration: underline; }
+#PURCHASE:HOVER {text-decoration: underline; }
+ 
+.tobarhead2 {
+    display: flex;
+    justify-content: row;
+    padding-right: 180px;
+    justify-content: center;
+    
+}
+#fblogo {
+    width: 25px;
+    height: auto;
+    margin:3px;
+    background-repeat: no-repeat;
+    padding: 3px;
+  
+}
+#twitterlogo {
+    width: 25px;
+    height: auto; 
+    background-repeat: no-repeat; 
+    margin: 3px; 
+    padding: 3px; 
+}
+#instalogo {
+    
+    background: url(https://image.flaticon.com/icons/png/512/36/36833.png) no-repeat;
+    padding: 3px;
+    margin: 3px;
+    width: 25px;
+    height: auto;
+}
+#fblogo {
+    background: url() no-repeat;
+}
+#fblogo:hover {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAaVBMVEU6VZ////81Up0yT5xgc61+jbsvTZyXo8hFXaOirM0nSJmlrs7O1OUkRpkfQ5c1UZ1oerKHlcDp6/M9WKHHzeHV2ulxgravt9Td4Ozl6PGDkb7ByN5YbatQZ6j29/q3v9h2hrhMY6aQnMSsAnKHAAAC70lEQVR4nO3caXLiMBRFYdoihhhsQ5jDlPT+F9mdqv7bRrYQ7z7XOQug9BUWHiQzmRARERERERERERERERERqVe0IZQPCtaDHFwo62Yz/VrP3jtbrH0Sy7rYH46/YtpV1oPtX6jCbBel+2npThjq/Taa51AYmrdTH583YdHsP/r5nAnLTa/j05+w+ezv8yRsq/MQoB9hmPeegb6E5eU2DOhFWK4G+rwIw3CgD2G4Dge6ELaboXPQi7CJu4nwK6zvKUAHwvCVBHQgrFMmoQdh4jGqL2wviUB5YRP/uMKnsJ2mAtWF9XLkwjblcs2FsDqMXZh6LpQXhn06UFtYpZ7t5YX1wEczboTF/AlAaWFYP0OovPZU9pmGt9194W79sIq/Jt2uqqrytwbcxJ4NT9e6tR7soEIk8N749E2K7zjgubEe6dAi75yOboGxwrnTQ/RvRZTwIHy6e1SccF5Yj3N4UcJjbT3MhKKEh9J6mAlFCZWvyR4WJXxDqBxChPohRKgfQoT6IUSoH0KE+iFEqB9ChPqNQ1h0vKJcxWwt/aofvelsDFzNOlpECO9dH/DT+8ZUWMYgErNdfXuB8Ga7RPwCofHy2wuE59EfpQvbH9MXCNejF65st2q8QPhtu5Mhv/BmfE2TX/hhvGMqv3BpvBslv/BuvGUqv3A2+nloff+YX3gx3rmYX2j9CCC78Ga9NzO78GS9dTG7cDv679B8c2Z24e/R/9LsRy+8Wm/kzy60nobZhdb3TvmF9u8e5hYaP0p8gfB99PPQ/l2F3MKp+StDuYXWvuxC60eJ+YXm907ZhQJ/NlA+4d9ZOrrbH6WTzbyjmL+D/Oz6BNsl/H8V/y9E7TYpOz7BGveoceyn6QohQv0QItQPIUL9ECLUDyFC/RAi1A8hQv0QItQPIUL9ECLUDyFC/RAi1A8hQv0QItQPIUL9ECLUDyFC/RAi1A8hQv0QItQPIUL9ECLUDyFC/RAi1A8hQv0QItQPIUL9ECLs0R8aFUYEFLSeAgAAAABJRU5ErkJggg==) no-repeat;  
+}
+#twitterlogo:hover {
+    background: url() no-repeat;
+}
+#instalogo:hover {
+    background: url() no-repeat;
+    
+}
+
+.totalwarlogo {
+    width: 80px;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    margin-left: 150px;
+    
+}
+.foot {
+    background-color: black;
+    height: 54px;
+    width: auto  ;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    right: 180px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+.stickybar1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 100px;
+    color: white;
+    justify-content: flex-start;
+    font-size: 16px;
+}
+#ABOUT {margin: 3PX; } 
+#RACES {margin: 3PX;}
+#VIDEO {margin: 3PX;}
+#PLAYERGUIDES {margin: 3PX;}
+#GALLERY {margin: 3PX;}
+#BLOG1 {margin: 3PX;}
+#RELATED {margin: 3PX;}
+
+#ABOUT:hover {text-decoration: underline; } 
+#RACES:hover {text-decoration: underline; } 
+#VIDEO:hover {text-decoration: underline; } 
+#PLAYERGUIDES:hover {text-decoration: underline; } 
+#GALLERY:hover {text-decoration: underline; } 
+#BLOG1:hover {text-decoration: underline; } 
+#RELATED:hover {text-decoration: underline; } 
+
+  
+  .navbar {
+    float: center;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+   
+    text-decoration: none;
+  }
+  
+  .navabar {
+    overflow: hidden;
+    background-color:white;
+    padding:auto ;
+  }
+  
+  .dropdown-content{
+    float: left;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    padding-top: 0;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: auto;
+  }
+  
+  .navabar a:hover, .dropdown:hover .dropbtn {
+    background-color:#97743a;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: inh;
+    box-shadow: #97743a ;
+    z-index: 1;
+    
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: inherit;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    text-decoration: underline;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    
+
+  }
+    
+.PURCHASE1 {
+    color: WHITE;
+    margin-right: 50px;
+    font-size: 15px;
+    background-color:#97743a ;
+    
+    margin-left: 10px;
+    padding:0px ;
+    
+}
+
+.videosimages {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
